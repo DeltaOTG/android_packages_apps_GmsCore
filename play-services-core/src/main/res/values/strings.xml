@@ -137,6 +137,8 @@ This can take a couple of minutes."</string>
 
     <string name="pref_add_account_title">Account</string>
     <string name="pref_add_account_summary">Add Google account</string>
+    <string name="pref_manage_accounts">Manage accounts</string>
+    <string name="pref_manage_accounts_summary">Add accounts and manage settings</string>
     <string name="pref_gcm_enable_mcs_summary">Google Cloud Messaging is a push notification provider used by many third-party applications. To use it you must enable device registration.</string>
     <string name="pref_gcm_heartbeat_title">Cloud Messaging heartbeat interval</string>
     <string name="pref_gcm_heartbeat_summary">The interval in seconds for the system to heartbeat the Google servers. Increasing this number will reduce battery consumption, but might cause delays on push messages.\nDeprecated, will be replaced in future release.</string>
@@ -145,6 +147,12 @@ This can take a couple of minutes."</string>
     <string name="pref_gcm_confirm_new_apps_title">Confirm new apps</string>
     <string name="pref_gcm_confirm_new_apps_summary">Ask before registering a new app to receive push notifications</string>
     <string name="pref_gcm_ping_interval">Ping interval: <xliff:g example="10 minutes">%1$s</xliff:g></string>
+    <string name="pref_gcm_apps_messaging">Messaging</string>
+    <string name="pref_gcm_apps_messaging_title">Start app on push message</string>
+    <string name="pref_gcm_apps_messaging_summary">Start the app in background to receive the incoming push messages. Disabling this might delay message delivery up to the moment the app is started or cause complete message loss.</string>
+    <string name="pref_gcm_apps_registration">Registration</string>
+    <string name="pref_gcm_apps_registration_title">Allow registration</string>
+    <string name="pref_gcm_apps_registration_summary">Allow the app to register for push notifications.</string>
 
     <string name="pref_about_title">About microG Services Core</string>
     <string name="pref_about_summary">Version information and used libraries</string>
